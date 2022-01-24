@@ -172,14 +172,9 @@
 
 // function filter(arr, conf) {
 //     let store = []
-//     let cond = 0
-
-//     for (const key in conf) {
-//         cond++
-//     }
     
 //     for (let i = 0; i < arr.length; i++) {
-//         let count = 0
+//         let cond = Object.keys(conf).length
 //         for (const key in arr[i]) {
 //             if (arr[i][key] === conf[key]) {
 //                 count++
@@ -213,7 +208,6 @@
 // ]
 
 // console.log(filter(users, {name: 'malika', gender: 'female'}));
-
 
 
 
