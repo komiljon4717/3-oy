@@ -82,7 +82,7 @@ for (let div of divs) {
             chack()
 
         }else{
-            alert('Bitta box faqat bir marta bosiladi')
+            alert('Bitta box faqat bir marta bosiladii')
         }
     }
 }
