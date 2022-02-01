@@ -2,9 +2,9 @@
 class RGB{
 
     constructor(red=0, green=0, blue=0){
-        this.R = red
-        this.G = green
-        this.B = blue
+        this.R = this.chack(red)
+        this.G = this.chack(green)
+        this.B = this.chack(blue)
     }
     chack(val){
         if (val >= 0 && 255 >= val) {
@@ -68,12 +68,12 @@ let rgb = new RGB(15)
 
 // rgb.red = 250
 
-rgb.colors = [280, 68]
+// rgb.colors = [280, 68]
 // rgb.red = 255
 // rgb.green = 47
 // rgb.blue = 35
 // console.log(rgb.red);
 // console.log(rgb.green);
 // console.log(rgb.blue);
-console.log(rgb.colors);
+// console.log(rgb.colors);
 console.log(rgb);

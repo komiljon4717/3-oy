@@ -55,14 +55,12 @@ for(let num of nums) {
 	}
 }
 
-// O'zim yozgan code
 
 dot.onclick = () => {
     let includSign = display.value.split(calcSign)
 
     if (!display.value.includes(dot.textContent)) {
         concatValues(dot.textContent)
-        // console.log(dot.textContent);
     }else if (display.value.includes(calcSign) && !includSign[1].includes(dot.textContent)) {
         concatValues(dot.textContent)
     }

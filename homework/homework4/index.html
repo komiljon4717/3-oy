@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDo App</title>
+	<style>
+
+		:root{
+			--dark: #374151;
+			--darker: #1F2937;
+			--darkest: #111827;
+			--gray: #6B7280;
+			--light: #EEE;
+			--pink: #EC4899;
+			--purple: #8B5Cf6
+		}
+	
+		body{
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+			background: var(--dark);
+			color: #FFF;
+			}
+
+		.wrapper {
+			display: flex;
+			flex-direction:column;
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			box-shadow: 0 0 15px 1px rgba(0,0,0,0.5);
+			padding: 30px;
+			border-radius: 15px;
+			margin-top: 120px;
+		}
+
+		.form {
+			display:flex;
+		}
+
+		.form * {
+			padding: 5px 15px;
+			font-size: 25px;
+		}
+
+		.form input {
+			flex-grow: 1;
+			background-color: var(--darker);
+			border-radius: 15px;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			display:  flex;
+			list-style-type: none;
+			flex-direction:column;
+			margin-top: 25px;
+		}
+
+		ul li {
+			display:  flex;
+			background-color: var(--darker);
+			align-items: center;
+			justify-content: space-between;
+			padding: 10px;
+			border:  1px solid rgb(206, 10, 26);
+			border-radius: 15px;
+			margin-bottom: 5px;
+			font-size: 23px;
+		}
+		#btn{
+			color: aqua;
+			background-color: var(--darker);
+			border-radius: 15px;
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<div class="wrapper">
+		<div class="form">
+			<input class="display" type="text">
+			<button id="btn">add</button>
+		</div>
+		<ul>
+<!-- 			<li class="item">
+				<span>lorem</span>
+				<button>X</button>
+			</li>
+			<li class="item">
+				<span>lorem</span>
+				<button>X</button>
+			</li>
+			<li class="item">
+				<span>lorem</span>
+				<button>X</button>
+			</li> -->
+		</ul>
+	</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
